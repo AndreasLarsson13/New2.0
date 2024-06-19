@@ -3,7 +3,7 @@ import { useBrandsQuery } from "@framework/brand/get-all-brands";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import { useTranslation } from "next-i18next";
-import { useFilteredData } from '../../pages/FilteredDataContext';
+import { useFilteredData } from './../../FilteredDataContext';
 
 export const BrandFilter = () => {
 	const { filteredData, setFilteredData } = useFilteredData();

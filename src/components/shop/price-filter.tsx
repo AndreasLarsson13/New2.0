@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "next-i18next";
-import { useFilteredData } from '../../pages/FilteredDataContext';
+import { useFilteredData } from './../../FilteredDataContext';
 
 export const PriceFilter = () => {
 	const { t } = useTranslation("common");

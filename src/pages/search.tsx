@@ -12,7 +12,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { ROUTES } from '@utils/routes';
 import { useTranslation } from 'next-i18next';
 import { GetStaticProps } from 'next';
-import { FilteredDataProvider } from './FilteredDataContext';
+import { FilteredDataProvider } from './../FilteredDataContext';
 import { useRouter } from "next/router";
 
 

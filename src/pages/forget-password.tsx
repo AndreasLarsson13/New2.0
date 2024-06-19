@@ -1,4 +1,4 @@
-/* import Container from "@components/ui/container";
+import Container from "@components/ui/container";
 import Layout from "@components/layout/layout";
 import ForgetPasswordForm from "@components/auth/forget-password-form";
 import PageHeader from "@components/ui/page-header";
@@ -34,4 +34,3 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
 		},
 	};
 };
- */

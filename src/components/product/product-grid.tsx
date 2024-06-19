@@ -7,7 +7,7 @@ import ProductFeedLoader from "@components/ui/loaders/product-feed-loader";
 import { useTranslation } from "next-i18next";
 import { Product } from "@framework/types";
 import { useEffect, useState } from "react";
-import { useFilteredData } from '../../pages/FilteredDataContext';
+import { useFilteredData } from './../../FilteredDataContext';
 import { has } from "lodash";
 
 interface ProductGridProps {

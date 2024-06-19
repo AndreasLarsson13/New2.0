@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { getDirection } from '@utils/get-direction';
 import motionProps from '@components/common/drawer/motion';
-import { useFilteredData } from '../../pages/FilteredDataContext';
+import { useFilteredData } from './../../FilteredDataContext';
 
 export default function SearchTopBar() {
   const { filteredData } = useFilteredData();

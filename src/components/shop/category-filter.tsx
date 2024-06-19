@@ -3,7 +3,7 @@ import { CheckBox } from "@components/ui/checkbox";
 import { useRouter } from "next/router";
 import React from "react";
 import { useTranslation } from "next-i18next";
-import { useFilteredData } from '../../pages/FilteredDataContext';
+import { useFilteredData } from './../../FilteredDataContext';
 
 export const CategoryFilter = () => {
 
