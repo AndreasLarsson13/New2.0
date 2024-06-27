@@ -593,7 +593,7 @@ export const siteSettings = {
               {
                 id: 1,
                 path: '/search?q=kok',
-                label: 'menu-hus-kok',
+                label: 'kok',
                 columnItemItems: [
                   {
                     id: 1,
@@ -861,51 +861,9 @@ export const siteSettings = {
         label: 'menu-pages',
         subMenu: [
           {
-            id: 1,
-            path: '/',
-            label: 'menu-users',
-            subMenu: [
-              /*  {
-                 id: 1,
-                 path: '/my-account',
-                 label: 'menu-my-account',
-               }, */
-              {
-                id: 2,
-                path: '/signin',
-                label: 'menu-sign-in',
-              },
-              {
-                id: 3,
-                path: '/signup',
-                label: 'menu-sign-up',
-              },
-              {
-                id: 4,
-                path: '/forget-password',
-                label: 'menu-forget-password',
-              },
-            ],
-          },
-          {
             id: 2,
             path: '/faq',
             label: 'menu-faq',
-          },
-          {
-            id: 3,
-            path: '/privacy',
-            label: 'menu-privacy-policy',
-          },
-          {
-            id: 4,
-            path: '/terms',
-            label: 'menu-terms-condition',
-          },
-          {
-            id: 5,
-            path: '/contact-us',
-            label: 'menu-contact-us',
           },
           {
             id: 6,
@@ -921,11 +879,6 @@ export const siteSettings = {
             id: 8,
             path: '/category/man',
             label: 'menu-category',
-          },
-          {
-            id: 9,
-            path: '/order',
-            label: 'menu-order',
           }
         ],
       },

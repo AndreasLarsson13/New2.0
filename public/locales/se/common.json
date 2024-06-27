@@ -27,8 +27,8 @@
   ],
   "sliderPhotos": [
     {
-      "mobile": "/assets/images/banner/slider/mobile/banner-1.jpg",
-      "desktop": "/assets/images/banner/slider/banner-1.jpg"
+      "mobile": "/assets/images/banner/slider/mobile/summerSale.jpg",
+      "desktop": "/assets/images/banner/slider/summerSale.jpg"
     },
     {
       "mobile": "/assets/images/banner/slider/mobile/kran-slide-banner.jpg",
@@ -41,7 +41,7 @@
   ],
   "bannersStartpage": [
     {
-      "mobile": "/assets/images/banner/slider/mobile/banner-1.jpg",
+      "mobile": "/assets/images/banner/slider/mobile/summerSale.jpg",
       "desktop": "/assets/images/banner/summerSale.jpg"
     },
     {
@@ -82,7 +82,7 @@
   "text-page-checkout": "Till kassan",
   "text-page-contact-us": "Frågor? Kontakta oss!",
   "text-page-my-account": "Mitt konto",
-  "text-page-terms-of-service": "Terms of Service",
+  "text-page-terms-of-service": "Användarvillkor",
   "text-page-privacy-policy": "Privacy Policy",
   "text-page-faq": "Vanliga frågor och svar",
   "text-page-support": "Vad vill du ha hjälp med?",
