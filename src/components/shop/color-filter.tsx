@@ -28,7 +28,7 @@ const colorFilterItems = [
     id: '4',
     name: 'Red',
     slug: 'red',
-    hexColor: '#5f0e0e',
+    hexColor: '#FF0000',
   },
   {
     id: '5',
