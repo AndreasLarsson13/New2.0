@@ -21,7 +21,7 @@ const CategoryCard: React.FC<Props> = ({ category }) => {
 			</Text>
 			<div className="grid grid-cols-3 gap-2.5 xl:gap-3">
 				{products?.slice(0, 3)?.map((product) => (
-					<Link href={`${product?.slug}`} key={`image--key${product?.id}`}>
+					<Link href={`${product?.slug}`} key={`image--key${product?.id}`} legacyBehavior>
 						<a className="flex rounded-md overflow-hidden">
 							<Image
 								src={
