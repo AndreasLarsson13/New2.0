@@ -33,7 +33,7 @@ const Card: React.FC<Props> = ({
   const { t } = useTranslation('common');
 
   return (
-    <Link href={href} className="group flex justify-center text-center flex-col" legacyBehavior>
+    <Link href={href} className="group flex justify-center text-center flex-col">
       {/* disableBorderRadius===false && (variant === 'rounded' ? 'rounded-md' : 'rounded-full') */}
       <div
         className={`relative inline-flex mb-3.5 md:mb-4 lg:mb-5 xl:mb-6 mx-auto ${!disableBorderRadius && (variant === 'rounded' ? 'rounded-md' : 'rounded-full')
