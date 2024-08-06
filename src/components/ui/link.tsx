@@ -10,7 +10,7 @@ export default function Link({
 	...props
 }: React.PropsWithChildren<LinkProps>) {
 	return (
-		<NextLink href={href}>
+		<NextLink href={href} legacyBehavior>
 			<a {...props}>{children}</a>
 		</NextLink>
 	);

@@ -41,6 +41,7 @@ export default function BannerCard({
           'h-full group flex justify-center relative overflow-hidden',
           classNameInner
         )}
+        legacyBehavior
       >
         <Image
           src={selectedImage.url}

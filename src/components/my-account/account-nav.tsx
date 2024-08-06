@@ -47,7 +47,7 @@ export default function AccountNav() {
         const menuPath = `/${menuPathname[0]}`;
 
         return (
-          <Link key={item.slug} href={item.slug}>
+          <Link key={item.slug} href={item.slug} legacyBehavior>
             <a
               className={
                 mainPath === menuPath
