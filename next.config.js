@@ -15,7 +15,7 @@ module.exports = withPWA({
     ignoreBuildErrors: true,
   },
   async headers() {
-    const allowedOrigins = ["https://localhost:4000"];
+    const allowedOrigins = ["http://localhost:4000"];
 
     return [
       {

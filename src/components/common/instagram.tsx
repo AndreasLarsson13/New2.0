@@ -19,7 +19,7 @@ const Instagram: React.FC = () => {
   useEffect(() => {
     const fetchInstagram = async () => {
       try {
-        const { data } = await http.get("http://localhost:3100/instagram");
+        const { data } = await http.get("https://localhost:3100/instagram");
         const updatedInstagramFeed = data.slice(0, 12).map((item: any, index: number) => ({
           id: item.id,
           title: item.caption,
