@@ -33,7 +33,7 @@ const IconCard: React.FC<Props> = ({
         'gap-[25px] xl:gap-[30px] 2xl:gap-[40px] 3xl:gap-[50px] px-3 lg:px-4 py-5 lg:py-8 bg-gray-200':
           variant === 'list',
       })}
-      legacyBehavior
+
     >
       <div
         className={cn('relative flex items-center', {

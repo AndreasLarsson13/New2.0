@@ -13,6 +13,7 @@ const BrandCard: React.FC<{ brand: Brand }> = ({ brand }) => {
 				pathname: ROUTES.SEARCH,
 				query: { brand: slug },
 			}}
+
 		>
 			<a className="group flex justify-center text-center relative overflow-hidden rounded-md">
 				<Image
